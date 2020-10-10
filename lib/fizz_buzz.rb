@@ -15,22 +15,19 @@
   
   #fizzbuzz(100)
 
-  #puts "Hello and welcome to Fizz Buzz. the rules are simple: type a number between 1 and 100 and see what you gett!! have fun kidz"
-  #print "enter a number between 1 and 100: "
+puts "Hello and welcome to Fizz Buzz. the rules are simple: type a number and see what you gett! have fun kidz"
+print "enter a number here: "
 
-puts "please pick a number between 1 and 100 "
-number = gets.chomp
+number = gets.chomp().to_f
 
-1. upto(100) do |number|
    if number % 3 == 0 && number % 5 == 0
-    puts "FizzBuzz"
+    puts "Congratulations! That's a FizzBuzz! can U find another?"
    elsif number % 3 == 0
-    puts "Fizz" 
+    puts "That's a Fizz" 
    elsif number % 5 == 0
-    puts "Buzz"
-   elsif 
+    puts "That's a Buzz"
+   else 
     puts number
    end
-end
 
 
