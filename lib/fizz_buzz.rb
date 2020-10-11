@@ -20,6 +20,7 @@ print "enter a number here: "
 
 number = gets.chomp().to_f
 
+def fizz_buzz (number)
    if number % 3 == 0 && number % 5 == 0
     puts "Congratulations! That's a FizzBuzz! can U find another?"
    elsif number % 3 == 0
@@ -29,5 +30,6 @@ number = gets.chomp().to_f
    else 
     puts number
    end
+end
 
 
